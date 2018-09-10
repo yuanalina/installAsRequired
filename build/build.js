@@ -10,6 +10,12 @@ const chalk = require('chalk')
 const webpack = require('webpack')
 const config = require('../config')
 let webpackConfig = require('./webpack.prod.conf')
+// 判断参数是打包examples,设置output路径为dist/
+// 设置执行文件为example相关配置的webpack文件
+if (process.argv[2] == 'examples') {
+  webpackConfig = require('./webpack.prod.examples.conf')
+  config.build.assetsRoot = path.resolve(__dirname, '../dist')
+}
 
 const spinner = ora('building for production...')
 spinner.start()
