@@ -1,0 +1,5 @@
+{
+  "input": "./src/components/input",
+  "button-model": "./src/components/buttonModel",
+  "index": "./src/index.js"
+}

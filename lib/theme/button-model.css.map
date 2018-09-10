@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/components/buttonModel/button.vue"],"names":[],"mappings":";AACA;EACE,uBAAuB;EACvB,iBAAiB;EACjB,iBAAiB;CAClB","file":"/theme/button-model.css","sourcesContent":["\n.button{\n  border: 1px solid #000;\n  background: none;\n  padding: 4px 8px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/components/buttonModel/button.vue"],"sourceRoot":""}
