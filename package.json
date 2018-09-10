@@ -6,16 +6,14 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuanalina/upload.git"
+    "url": "https://github.com/yuanalina/installAsRequired.git"
   },
-  "homepage": "https://github.com/yuanalina/upload",
-  "bugs": "https://github.com/yuanalina/upload/issues",
+  "homepage": "https://github.com/yuanalina/installAsRequired",
+  "bugs": "https://github.com/yuanalina/installAsRequired/issues",
   "license": "MIT",
   "keywords": [
-    "upload",
-    "vue-drop-upload",
-    "drop-upload",
-    "vue-upload"
+    "component-required",
+    "installAsRequired"
   ],
   "main": "lib/index.js",
   "scripts": {
