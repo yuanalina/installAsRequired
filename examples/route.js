@@ -1,6 +1,7 @@
 import Install from './docs/install.md'
 import QuikeStart from './docs/quikeStart.md'
 import Input from './docs/input.md'
+import Button from './docs/button.md'
 const routes = [
   {
     path: '/',
@@ -21,6 +22,11 @@ const routes = [
     path: '/input',
     name: 'input',
     component: Input
+  }, 
+  {
+    path: '/button',
+    name: 'button',
+    component: Button
   }
 ]
 

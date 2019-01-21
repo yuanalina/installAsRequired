@@ -21,7 +21,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   devtool: config.dev.devtool,
 
   entry: {
-    app: './example/main.js'
+    app: './examples/main.js'
   },
 
   // these devServer options should be customized in /config/index.js
@@ -58,7 +58,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './example/index.html',
+      template: './examples/index.html',
       inject: true
     }),
     // copy custom static assets

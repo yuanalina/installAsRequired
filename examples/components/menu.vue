@@ -23,6 +23,9 @@
         <el-menu-item-group>
           <el-menu-item index="/input">Input</el-menu-item>
         </el-menu-item-group>
+        <el-menu-item-group>
+          <el-menu-item index="/button">Button</el-menu-item>
+        </el-menu-item-group>
       </el-submenu>
     </el-menu>
   </div>
